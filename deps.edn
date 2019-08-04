@@ -1,0 +1,14 @@
+{:paths ["src"]
+ 
+ :deps
+ {com.bhauman/figwheel-main {:mvn/version "0.2.3"}
+ }
+ 
+ :aliases 
+ {:target
+  {:extra-paths ["target"]}
+  
+  :cljs520
+  {:extra-deps {org.clojure/clojurescript {:mvn/version "1.10.520"}}}
+ }
+}
